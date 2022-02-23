@@ -1,0 +1,16 @@
+header.page-header {
+    background:#004899 ;
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: white;
+    
+}
+html, body {
+    font-family: 'Museo', 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+  }
+  
