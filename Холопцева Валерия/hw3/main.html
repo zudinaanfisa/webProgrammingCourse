@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content">
+        <div class="header-1">Вход</div>
+        <div class="login-container">
+          <h6 class="label">Логин</h6>
+          <input type="text" id="login-field" placeholder="Введите логин" />
+        </div>
+        <div class="password-container">
+          <h6 class="label noselect">Пароль</h6>
+          <input
+            type="password"
+            id="password-field"
+            placeholder="Введите пароль"
+          />
+        </div>
+        <div class="radio-container">
+          <div>
+            <input
+              type="radio"
+              id="mine"
+              name="remember"
+              value="mine"
+              checked
+            />
+            <label for="mine">Мой компьютер</label>
+          </div>
+
+          <div>
+            <input type="radio" id="other" name="remember" value="other" />
+            <label for="other">Другой компьютер</label>
+          </div>
+        </div>
+        <button class="button">Войти</button>
+      </div>
+    </div>
+  </body>
+</html>
