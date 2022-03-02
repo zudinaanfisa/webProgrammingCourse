@@ -1,0 +1,67 @@
+
+        <div id="form_register">
+            <h2>Форма регистрации</h2>
+ 
+            <form action="register.php" method="post" name="form_register">
+                <table>
+                    <tbody><tr>
+                        <td> Имя: </td>
+                        <td>
+                            <input type="text" name="first_name" required="required">
+                        </td>
+                    </tr>
+ 
+                    <tr>
+                        <td> Фамилия: </td>
+                        <td>
+                            <input type="text" name="last_name" required="required">
+                        </td>
+                    </tr>
+              
+                    <tr>
+                        <td> Email: </td>
+                        <td>
+                            <input type="email" name="email" required="required"><br>
+                            <span id="valid_email_message" class="mesage_error"></span>
+                        </td>
+                    </tr>
+              
+                    <tr>
+                        <td> Пароль: </td>
+                        <td>
+                            <input type="password" name="password" placeholder="минимум 6 символов" required="required"><br>
+                            <span id="valid_password_message" class="mesage_error"></span>
+                        </td>
+                    </tr>
+                    <tr>
+
+
+<form action="">
+  <p>Выберите пол:</p>
+
+  <input type="radio" id="мужской" name="sex"/>
+  <label for="male" id="male">мужской</label>
+  <input type="radio" id="женский"name="sex"/>
+  <label for="female" id="female">женский</label>
+  </form>
+  <tr>
+  <td>
+      <label for="start">Укажите дату рождения:</label>
+        <td>
+      <input type="date" id="start" name="trip-start"
+       value="дд.мм.гггг">
+        </td>
+  </td>
+</tr>
+   <p>
+   <tr>
+   <td>
+    <input type="file" name="file" />
+    <td>
+    <input type="submit" value="Добавить аватар" />
+    </p>
+    </td>
+    </form>
+   </td>
+<tr>
+</p>

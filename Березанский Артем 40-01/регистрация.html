@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1>Регистрация</h1>
+<fieldset>
+<p><strong>Заполните данный раздел:</p></strong>
+
+<form action="/action_page.php">
+<strong><label for="login">Ваш логин:</label><br></strong>
+<input type="text" id="login" name="login"><br>
+<strong><label for="pwd">Ваш пароль:</label><br></strong>
+<input type="password" id="pwd" name="pwd"><br>
+<strong><label for="pwd">Повторите Ваш пароль:</label><br></strong>
+<input type="password" id="pwd" name="pwd"><br>
+<strong><p>Укажите Ваш Email:</p></strong>
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"><br><br>
+<strong><p>Укажите Ваш пол:</p></strong>
+<input type="radio" id="gendm" name="gender" value="Мужской">
+<label for="gendm">Мужской</label><br>
+<input type="radio" id="gendw" name="gender" value="Женский">
+<label for="gendw">Женский</label><br></label><br>
+<strong><p>Укажите Вашу дату рождения:</p></strong>
+<label for="birthday">Дата рождения:</label>
+<input type="date" id="birthday" name="birthday"><br>
+<strong><p>Укажите Ваши увлечения:</p></strong>
+<input type="checkbox" id="hobby" name="hobby" value="colmarks">
+<label for="hobby">Собираю марки</label><br>
+<input type="checkbox" id="vehicle2" name="hobby" value="colmoney">
+<label for="hobby">Собираю монеты</label><br>
+<input type="checkbox" id="vehicle3" name="hobby" value="nohobby">
+<label for="hobby">Нет хобби</label><br><br>
+<strong><form enctype="multipart/form-data" method="post"> <p>Загрузите ваши фотографии на сервер</p> <p><input type="file" name="photo" multiple accept="image/*,image/jpeg"></strong>
+<br><br><input type="submit" value="Отправить">
+<input type="reset">
+</form>
+</fieldset>
+<p>Примерно так.</p>
+
+</body>
+</html>
