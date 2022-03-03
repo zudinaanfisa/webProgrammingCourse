@@ -167,20 +167,37 @@ color: #fce38a;
 	color: #333;
 }
 
+
+
+
+
 /* Slider */
 .slider { 
-	display: flex;
-	justify-content: space-between;
-	margin-top: 30px;
+    width: 100%;
+    
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
+
+.slider__inner {
+    display: flex;
+	justify-content: space-between;
+	
+}
+
+
 .slider__item {
-	width: 120%;
+	width: 23%;
 	padding: 20px 0;
+    position: relative;
+    
 	border-top: 3px solid #fff;
 	opacity: .7;
 	
-	font-size: 14px;
+	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
 	
@@ -191,10 +208,145 @@ color: #fce38a;
 }
 
 
+
+.slider__item.active:before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    
+    background-color: #f38181;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+
 .slider_num {
 	font-size: 24px;
 	font-weight: 700;
 }
+
+
+
+/*Section*/
+
+.section {
+    padding: 80px 0;
+}
+
+.section__header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    
+    text-align: center;
+    
+    
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    
+    background-color: #f38181;
+}
+
+.section__text {
+    font-size: 15px;
+    color:#999
+}
+
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content:left;
+    
+}
+
+.about__item {
+    width: auto;
+    background: #95e1d3; 
+}
+
+.about__item:hover .about__img img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about__item:hover .about__img img {
+    opacity: .3;
+}
+
+.about__img{
+    background: linear-gradient (to bottom,
+    #f38181, #fce38a);
+    transform: transform .2s linear; 
+}
+
+
+.about__img img {
+    transition: opacity .1s linear;
+}
+
+.about__text {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+
+   
+.form
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.fname
+
+{
+    font-size: 16px;
+}
+
+
+.p {
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
