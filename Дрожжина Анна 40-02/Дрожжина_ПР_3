@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <title>Форма регистрации</title>
+	<font color="#66CDAA">
+		<h1 align="center">Форма регистрации<align="center"</h1>
+		</font>
+ </head>
+ <body> 
+    <font color="#0000CD">
+	<form action="">
+	     <h1 title="Форма регистрации на сайте">Регистрация</h1>
+		 <div class="group"></div>
+		    <label for="">Имя пользователя:</label>
+		    <input type="text">
+		 <div class="group"></div>
+		    <label for="">Пароль:</label>
+		    <input type="password">
+		 <div class="group"></div>
+		    <label for="">Пароль ещё раз:</label>
+		    <input type="password">
+		 <div class="group"></div>
+		    <label for="">Адрес электронной почты:</label>
+		    <input type="email">
+		 <div class="group"></div>
+		    <center><button>Завершить регистрацию</button></center>
+		</div>
+	</form>
+</body>
+</html>	
