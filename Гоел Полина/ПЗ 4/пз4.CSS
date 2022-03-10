@@ -1,0 +1,68 @@
+div {
+  border: 20px solid #8F802E;
+  padding: 2px;
+  background-color: #DBC85C
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #DB46AB;
+  
+}
+
+h1.highlight:hover {
+  color: #8F802E;
+  font-size: 30px;
+} 
+
+#wishes {
+  table-layout: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#wishes td, #wihes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#wishes tr:nth-child(even){background-color: #f2f2f2;}
+
+#wishes tr:hover {background-color: #ddd;}
+
+#wishes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8F3572;
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: #8F802E;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(5); /* Увеличиваем масштаб */
+   }
