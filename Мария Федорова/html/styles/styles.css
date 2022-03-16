@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+.header {
+  background-color: #10BD6A;
+  padding: 20px;
+  text-align: center;
+}
+.quote {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.you {
+  font-family: 'Raleway', sans-serif;
+  color: #EE1D50;
+}
+.menu {
+  float: left;
+  margin: 0 10px 20px 225px;
+}
+.photo {
+  text-align: right;
+  margin: 10px 20% 20px 225px;
+}
+.photo8 {
+  float: left;
+}
+.photo9 {
+  float: right;
+  transform: scale(-1, 1);
+}
+.clients {
+  margin-right: 15%;
+  font-weight: bold;
+}
+.otstup {
+  padding: 5px;
+}
+.menuitem {
+  background-color: #10BD6A;
+  height: 40px;
+  padding: 3px;
+}
+.menuitem2 {
+  color: white;
+  text-align: center;
+  background-color: #000000;
+}
+.footer {
+  list-style: none;
+  padding-top: 40px;
+  text-align: center;
+  background-color: white;
+}
+.footerMenu {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+  font-weight: bold
+}
+.footerMenu li {display: inline-block;}
+.footerMenu li:after {
+  content: "|";
+  color: #000000;
+  display: inline-block;
+  vertical-align:top;
+}
+.footerMenu li:last-child:after {content: none;}
+.footerMenu a {
+  font-family: 'Raleway', cursive;
+  font-size: 17px;
+  color: #000000;
+  display: inline-block;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: .2s linear;
+}
+.footerMenu a, .footerMenu a:visited {color: #000000;}
+.footerMenu a.current, .footerMenu a:hover{color: #10BD6A;}
+.footerMenu a:before,
+
+.footerMenu a:hover:before, .footerMenu .current:before {left: 0;}
+.footerMenu a:hover:after, .footerMenu .current:after {right: 0;}
+# @media (max-width: 550px) {
+.footerMenu {padding-top: 0;}
+.footerMenu li {display: block;}
+.footerMenu li:after {content: none;}
+.footerMenu a {
+  padding: 25px 0 20px;
+  margin: 0 30px;
+}
+}
+.table {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  margin: auto;
+  align: center;
+  text-align: center;
+}
+.grats {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
