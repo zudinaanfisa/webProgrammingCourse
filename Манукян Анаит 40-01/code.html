@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #D3D3D3;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 15px;
+  overflow: hidden;
+}
+.right {
+  background-color: LightGrey;
+  float: right;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.round {
+  width: 300px; height: 300px; /* Ширина и высота */
+   border-radius: 50%; /* Превращаем в круг */
+   background: url(/example/image/shark.jpg) no-repeat -70px 0; /* Параметры фона */
+   background-size: auto 300px; /* Высота фотографии равна высоте элемента */
+}
+.rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right, div {
+    width: 100%;
+  }
+}
+
+a {
+  color:DarkSlateGrey; /* Цвет обычной ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 2px; /* Поля вокруг текста */
+  }
+   a:visited {
+    color: #800080; /* Цвет посещенной ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+   } 
+   a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #708090; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #D3D3D3; /* Цвет фона */
+   }
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center;
+}
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+  </style>
+</head>
+
+<body style="font-family:Verdana;color:Brown">
+<div style=
+  "height: 100px;
+  background: linear-gradient(45deg, #FF99FF, #00FFFF); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%"</div>
+<div style="background-color:#FFFAFA;padding:1px;">
+  <h1 style="color: #778899">MOSDIS</h1>
+  <h5 style="color: #778899">Профилактика в Москве</h5>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu"> 
+    <p><a href="rome.html">Информация</a></p>
+    <p><a href="rome.html">Карта и анкеты</a></p>
+    <p><a href="rome.html">Личный кабинет</a></p>
+    <p><a href="rome.html">Q&A</a></p>
+  </div>
+
+  <div class="main">
+    <h2 style="color:#FFFFFF;">Возможность выявления хронических неинфекционных заболеваний</h2>
+  <br><p> <a href="rome.html"style="border: 1px solid #696969;
+    padding: 10px;padding: 10px;float:right;border-radius: 10px
+">Узнать, где можно пройти профилактику</a></p>
+
+    <img src="https://www.archive.inform.kz/fotoarticles/20181116103416.jpg"altalt="" class="round" width="100" hight="100">
+<br><br><p> <a href="rome.html"style="border: 1px solid #000000;
+    padding: 10px;padding: 10px;float:right;border-radius: 10px
+">Заполить анкету для получения маршрутного листа</a></p>
+   
+  </div>
