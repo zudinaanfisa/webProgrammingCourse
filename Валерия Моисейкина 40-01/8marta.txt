@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Название документа</title>
+    <style>
+      #navbar {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        border: 2px solid #DC143C;
+        border-radius: 20px 5px;
+        width: 1300px;
+        text-align: center;
+        background-color: #FA8072;
+      }
+      #navbar li { display: inline; }
+      #navbar a {
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+      }
+      #navbar a:hover {
+        border-radius: 20px 5px;
+        background-color: #DC143C;
+      }
+    </style>
+  </head>
+ 
+  <body>
+  
+    <ul id="navbar">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Новости</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">О нас</a></li>
+    </ul>
+    <p>
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="C:\Users\1пк\Desktop\March.png" alt="https://pin.it/6dvcHcD" width="1300" height="1200">
+
+</body>
+</html>
+</p>
+<p>
+</p>
+<p>
+</p>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Тег TABLE</title>
+ </head>
+ <body>
+  <table border="1" width="100%" cellpadding="5">
+   <tr>
+    <th>Поздравления от:</th>
+    <th>Email</th>
+   </tr>
+   <tr>
+    <td>Петров Николай Романович</td>
+    <td></head>
+ <body>
+ <p><a href="mailto:NikolayP@mail.ru?subject=Вопрос">NikolayP@mail.ru</p>
+ </body>
+</html></td>
+  </tr>
+   <tr>
+    <td>Виноградов Михаил Дмитриевич</td>
+    <td></head>
+ <body>
+ <p><a href="mailto:Vinogradoff@mail.ru?subject=Вопрос">Vinogradoff@mail.ru</a></p>
+ </body>
+</html></td>
+  </tr>
+   <tr>
+    <td>Захаров Денис Павлович</td>
+    <td></head>
+ <body>
+ <p><a href="mailto:DenisPavl@mail.ru?subject=Вопрос">DenisPavl@mail.ru</a></p>
+ </body>
+</html></td>
+  </tr>
+   <tr>
+    <td>Орлов Арсений Максимович</td>
+    <td></head>
+ <body>
+ <p><a href="mailto:OrlovArs@mail.ru?subject=Вопрос">OrlovArs@mail.ru</a></p>
+ </body>
+</html></td>
+  </tr>
+   <tr>
+    <td>Мешков Юрий Егорович</td>
+    <td></head>
+ <body>
+ <p><a href="mailto:JuriM@mail.ru?subject=Вопрос">JuriM@mail.ru</a></p>
+ </body>
+</html></td>
+  </tr>
+ </table>
+ </body>
+</html>
+ href="mailto:vlad@htmlbook.ru"
