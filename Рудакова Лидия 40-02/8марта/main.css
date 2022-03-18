@@ -1,0 +1,53 @@
+h1{
+    font-size: 50pt;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+
+.text{
+    width: 120px;
+    height: 40px;
+    border-radius: 8%;
+    background-color: rgb(206, 67, 132);
+    font-size: 20pt;
+    padding: 0,3%;
+    margin-left: 15%;
+    float: left;
+}
+
+.text:hover {
+    color: blue;
+    font-size: 21pt;
+}
+
+.hide{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    display: none;
+    font-size: 50pt;
+}
+
+.buttons:hover .hide {
+    display: block;
+}
+
+img{
+    margin-left: 44%;
+    margin-top: 10%;
+}
+
+table{
+    margin-top: 5%;
+    margin-left: 38%;
+    cellspasing 
+}
+th{
+    font-size: 25pt;
+}
+tr{
+    font-size: 25pt;
+    text-align: center;
+}
