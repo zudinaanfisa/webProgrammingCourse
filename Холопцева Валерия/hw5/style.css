@@ -1,0 +1,193 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* width: 95vw;
+  height: 95vh; */
+  align-items: center;
+  row-gap: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.subheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.subsubheader {
+  display: flex;
+  column-gap: 50px;
+  font-family: "Voltaire";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.search-nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.search-field {
+  width: 88%;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 40px;
+  align-items: flex-end;
+}
+
+.nav-button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 24px;
+}
+
+.line {
+  width: 700px;
+  height: 1px;
+  background-color: black;
+}
+
+.title {
+  font-size: 20px;
+  /* line-height: 15px; */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  font-family: "Voltaire";
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 15px; */
+}
+
+.special-offer-cont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  /* align-items: center; */
+}
+
+.card-cont {
+  display: flex;
+  column-gap: 70px;
+}
+
+.card {
+  width: 200px;
+}
+
+.card:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.infobut {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.more-btn {
+  padding: 8px 20px;
+  background-color: coral;
+  color: antiquewhite;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.more-btn:hover {
+  background-color: rgba(255, 127, 80, 0.8);
+  cursor: pointer;
+}
+
+.catalog-cont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.offer {
+  display: flex;
+  column-gap: 20px;
+}
+
+.offer-img {
+  width: 200px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* text-align-last: bottom; */
+  column-gap: 40px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.cat-img {
+  width: 190px;
+}
