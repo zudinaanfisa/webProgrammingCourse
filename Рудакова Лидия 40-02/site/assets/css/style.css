@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 1em;
+	background-color: white;
+	color: #555;
+}
+p {
+	padding: 0 0 30px 0;
+	margin-top: 13px;
+	line-height: 1em;
+}
+h1, h2 {
+	font: normal 120% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+}
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 70%;
+	padding:8px;
+}
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+	border-radius: 11px;
+}
+a, a:hover {
+	outline: none;
+	text-decoration: none;
+	color: blue;
+}
+ul {
+	margin: 2px 0 22px 17px;
+}
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+.header {
+	background-color: lightblue;
+	height: 120px;
+	font-size: 0,8em;
+	margin-right: 0px;
+	margin-left: 0px;
+	min-width: 900px;
+}
+.main, .logo, .menubar, .site_content, .footer {
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	width: 880px;
+	padding-bottom: 0px;
+}
+.logo h1, .logo h2 {
+	font: normal 200% 'century gothic', arial, sans-serlf;
+}
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 22px 10px 0 0;
+	color: darkblue ;
+	letter-spacing: 0.15em;
+	text-decoration: none;
+}
+.logo_text h2 {
+	font-size: 1.2em;
+	padding: 4px 0 0 0;
+	color: darkblue;
+}
+img {
+	width: 200px;
+	height: 300px;
+	size: 20%;
+	padding:37px;
+	padding: 6px 60px 5px 28px;
+}
+.menubar {
+	width: 1518px;
+	height: 50px;
+	background-color: white;
+}
+ul.menu {
+	float: right;
+	margin-right: 293px;
+}
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+ul.menu li a {
+	font: normal 100% 'trebuchet ms', sans-serlf;
+	display: block;
+	height: 20px;
+	padding: 6px 11px 5px 28px;
+	text-decoration: none;
+	color: darkgreen;
+}
+ul.menu li a:hover {
+	color: #16984C;
+}
+.site_content {
+	width: 880px;
+	overflow: hidden;
+	margin: 80px auto 10px 350px;
+	background-color: white;
+
+}
+.sitebar_container {
+	float: left;
+	width: 280px;
+
+}
+.sitebar {
+	float: left;
+	width: 257px;
+	padding: 5%;
+	border: solid 1px #f2f2f2;
+	border-radius: 10px;
+	background-color: white;
+}
+.btn {
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
+.sitebar h2 {
+	color: darkgreen;
+	font-size: 170%;
+}
+.sitebar span {
+	font-size: 108%;
+}
+.sitebar ul {
+	margin: 0;
+}
+.sitebar ul li {
+	list-style-type: none;
+	margin: 7px 0 10px 2px;
+}
+.rating.sitebar {
+	float: left;
+}
+.content {
+	text-align: left;
+	width: 550px;
+	padding: 0px 0px 0px 5px;
+	float: right;
+	
+}
+.content a {
+	text-decoration: none;
+}
+.films_block {
+	margin-bottom: 10%;
+
+}
+.films_block img {
+	margin-left: 20px;
+	border-radius: 10px;
+	border: solid 10px black;
+	width: 60%;
+	
+}
+.posts .posts_content {
+	font-size: 0.8em;
+	
+}
+.footer {
+	background-color: white;
+	width: 100%;
+	height: 130px;
+	padding: 30px, 30px 5px, 0px;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	min-width: 900px;
+	margin-top: 20px;
+}
+.footer p {
+	padding-top: 30px;
+	margin-top: -20px;
+	color: #aeb002;
+}
+.footer a {
+	text-decoration: none;
+
+}
+.footer a:hover {
+	color: darkgreen;
+	text-decoration: none;
+}
+.posts_content p {
+	margin-top: 10px;
+	font-size: 140%;
+}
+.posts h2 a {
+	color: darkgreen;
+
+}
+.content h1 {
+	color: darkgreen;
+}
+.posts_contrent img {
+	float: right;
+}
