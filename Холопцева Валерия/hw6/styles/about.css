@@ -1,0 +1,11 @@
+.image {
+  height: 400px;
+  width: 700px;
+  object-fit: cover;
+}
+
+.classruk-image {
+  height: 200px;
+  width: 153px;
+  object-fit: cover;
+}

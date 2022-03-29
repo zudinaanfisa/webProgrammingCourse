@@ -1,0 +1,16 @@
+.disc-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.card {
+  height: 180px;
+  width: 100%;
+}
+
+.card:hover {
+  opacity: 70%;
+}
